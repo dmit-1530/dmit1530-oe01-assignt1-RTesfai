@@ -502,21 +502,15 @@ footer {
         padding-bottom: 4rem;
     }
 
-    .inner-container {
-        flex-direction: row;
-    }
-
-    .column {
-        width: 100%;
-    }
+    
     
     .inner-container .row {
         flex-direction: column;
-        width: 50vw;
     }
 
     .inner-container .break-symbol:last-of-type {
         margin-left: 0;
+        
     }
 
     .quote h2 {
