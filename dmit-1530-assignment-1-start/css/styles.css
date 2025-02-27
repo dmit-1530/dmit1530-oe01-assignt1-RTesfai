@@ -399,7 +399,6 @@ footer {
         display: flex;
         flex-wrap: wrap;
         gap: 1.5rem;
-        padding: 0 1.75rem 1rem;
         align-items: start;
         justify-content: center;
     }
@@ -460,6 +459,13 @@ footer {
         margin: auto;
         padding-bottom: 1rem;
     }
+    
+    
+
+    .intro .row {
+        align-items: center;
+    }
+
 
     .subsection-container {
         align-items: center;
@@ -492,8 +498,21 @@ footer {
         margin: auto;
     }
 
-    .container .inner-container .row {
+    .container {
+        padding-bottom: 4rem;
+    }
+
+    .inner-container {
+        flex-direction: row;
+    }
+
+    .column {
+        width: 100%;
+    }
+    
+    .inner-container .row {
         flex-direction: column;
+        width: 50vw;
     }
 
     .inner-container .break-symbol:last-of-type {
